@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
-import ConfirmationPopup from './ConfirmationPopup'; // Assume this is the path
+import ConfirmationPopup from './ConfirmationPopup';
 
 export default function UpdateScreen({ route, navigation }) {
     const { bookId } = route.params;
